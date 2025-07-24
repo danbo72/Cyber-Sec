@@ -21,14 +21,14 @@ Reason: it’s simple to use
 
 <img width="421" height="72" alt="image" src="https://github.com/user-attachments/assets/082446b7-822e-4fd5-b678-f3223b4332d9" />
 
-# 4. Lab Implementation Steps
+## 4. Lab Implementation Steps
 
 ### Prerequisites:
 - Computer with at least 8GB RAM (16GB recommended)
 - At least 80GB of free disk space
 - Hardware-based support for virtualization
 
-# 4.1. Install Hypervisor
+### 4.1. Install Hypervisor
 - Downloaded and installed VirtualBox on Windows 11 host machine.
 The virtualization technology used to run the VMs is Oracle VirtualBox, as it allows you to run multiple operating systems on your computer. It can be downloaded from the official website, https://www.virtualbox.org/.
 
@@ -48,7 +48,7 @@ You should now have the file in your folder, just like the screenshot below.
 <img width="385" height="296" alt="vm install" src="https://github.com/user-attachments/assets/66e095c8-089f-43de-b8c9-6021b8822048" />
 <img width="385" height="296" alt="Screenshot 2025-07-19 041047" src="https://github.com/user-attachments/assets/da35bb2e-1e5f-4a00-8c3b-7cbf7ca5b532" />
 
-## 4.2. Download OS ISOs
+### 4.2. Download OS ISOs
 
 - Windows 10 ISO downloaded from Microsoft's official site.
 https://www.microsoft.com/en-us/software-download/windows10
@@ -57,7 +57,7 @@ https://www.kali.org/get-kali/#kali-platforms
 
 <img width="519" height="45" alt="Screenshot 2025-07-21 094807" src="https://github.com/user-attachments/assets/7610d943-d684-4024-b1f9-097d2c6dd0e8" />
 
-## 4.3. Create and Configure Virtual Machines
+### 4.3. Create and Configure Virtual Machines
 - VM1 (Windows 10)
 - Click on the New icon on the VirtualBox interface.
   
@@ -121,7 +121,7 @@ The next section is the hardware information, where you set the base memory and 
 <img width="389" height="344" alt="Screenshot 2025-07-19 053814" src="https://github.com/user-attachments/assets/52fb3095-da2e-4a58-94c9-26bdecbd83bf" />
 <img width="389" height="344" alt="Screenshot 2025-07-19 054045" src="https://github.com/user-attachments/assets/c643695f-d453-4d64-9b24-6ab26ba41605" />
 
-## 4.4. Network Configuration
+### 4.4. Network Configuration
 
 •	Created a custom NAT Network in VirtualBox
 •	Ensured both VMs were attached to the same NAT Network
@@ -145,7 +145,7 @@ ip a or ifconfig (Linux VM)
 <img width="403" height="251" alt="Screenshot 2025-07-21 103724" src="https://github.com/user-attachments/assets/995c9c82-d858-45aa-984f-c37662bbd726" />
 
  
-## 5.2. Connectivity Test
+### 5.2. Connectivity Test
 ### Ping Test: From Windows VM to Linux VM
  
  Command: ping <Linux-VM-IP>
