@@ -30,11 +30,13 @@ Reason: it’s simple to use
 
 ### 4.1. Install Hypervisor
 - Downloaded and installed VirtualBox on Windows 11 host machine.
+
 The virtualization technology used to run the VMs is Oracle VirtualBox, as it allows you to run multiple operating systems on your computer. It can be downloaded from the official website, https://www.virtualbox.org/.
 
 <img width="428" height="135" alt="Screenshot 2025-07-21 093555" src="https://github.com/user-attachments/assets/a4ebef81-aff7-49d6-bd5b-ce1b11af2ba2" />
 
-Once on the website, click on the download button to get started. You will be redirected to a page where you must select the one compatible with your operating system. For this purpose, I will download the one for Windows and also accept the second arrow button, which is “Accept and Download,” to download the VirtualBox Extension file.
+Once on the website, click on the download button to get started. You will be redirected to a page where you must select the one compatible with your operating system. For this purpose, I will download the one for Windows and also click the second arrow button, which is “Accept and Download,” to download the VirtualBox Extension file.
+
 <img width="428" height="135" alt="Screenshot 2025-07-21 093745" src="https://github.com/user-attachments/assets/513a9499-a800-4f00-ace5-b05944675ba2" />
 
 You should now have the file in your folder, just like the screenshot below.
@@ -151,6 +153,7 @@ ip a or ifconfig (Linux VM)
  Command: ping <Linux-VM-IP>
 
 <img width="494" height="128" alt="Screenshot 2025-07-19 080140" src="https://github.com/user-attachments/assets/62fa7b10-27cc-49ff-a284-53968f6723ab" />
+
 Successful response with <1ms latency
 
 ## 6. Postmortem & Lessons Learned
